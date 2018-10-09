@@ -21,6 +21,10 @@ a:hover {
   color: #912447;
 }
 
+svg {
+  fill: #BA2E5B;
+}
+
 .text-primary {
   color: #BA2E5B !important;
 }
@@ -176,7 +180,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.png");
+  background-image: url("../img/bg.svg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -225,7 +229,7 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-.service-heading {
+.about-heading {
   margin: 15px 0;
   text-transform: none;
 }

@@ -15,6 +15,10 @@ a {
   }
 }
 
+svg {
+  fill: $primary;
+}
+
 .text-primary {
   color: $primary !important;
 }
